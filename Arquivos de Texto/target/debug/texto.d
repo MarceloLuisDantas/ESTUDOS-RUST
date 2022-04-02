@@ -1,0 +1,1 @@
+/home/marcelo/Documents/codigos/Rust/Estudos/Arquivos\ de\ Texto/target/debug/texto: /home/marcelo/Documents/codigos/Rust/Estudos/Arquivos\ de\ Texto/src/arquivo.rs /home/marcelo/Documents/codigos/Rust/Estudos/Arquivos\ de\ Texto/src/main.rs
