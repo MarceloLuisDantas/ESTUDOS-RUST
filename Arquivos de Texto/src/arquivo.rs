@@ -11,12 +11,12 @@ pub fn carrega_arquivo(path: &str) -> File {
                 Err(err) => {
                     panic!("Erro ao tentar criar arquivo | Error {}", err)
                 }
-            };
+            }
             // Apos criar o arquivo tenta abrir ele e retorna
             match File::open(path) {
                 Ok(file) => file,
                 Err(err) => {
-                    panic!("Erro ao tentar abrir arquivo {}", err)
+                    panic!("Erro ao tentar abrir arquivo criado | Error {}", err)
                 }
             }
         },
