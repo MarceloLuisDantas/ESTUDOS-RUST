@@ -1,0 +1,1 @@
+/home/marcelo/Documents/codigos/Rust/Estudos-Rust/Algoritmos/Ordenação/quick_sort/target/debug/quick_sort: /home/marcelo/Documents/codigos/Rust/Estudos-Rust/Algoritmos/Ordenação/quick_sort/src/main.rs

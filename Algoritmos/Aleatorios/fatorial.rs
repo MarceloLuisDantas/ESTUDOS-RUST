@@ -1,5 +1,20 @@
+/*
+    Contribuidores
+		- Heitor582 
+        - Dromedario de Chapéu
+
+    Fatorial é uma função matematica que consistem em realizar
+	a multiplicação de todos os antecessores de um numero.
+
+	Ex: 5! = 5 * 4 * 3 * 2 * 1 = 120 
+*/
+
+// Para realizar uma fatoração com recursão basta fazer o retorno
+// de uma função ser valor * a propia função recebendo valor - 1 
 fn fatorial(valor: usize) -> usize {
-    if valor == 1 || valor == 0{
+	// Para que não chege a multiplicar por 0 quando chegamos a 1 ou 0
+	// é retornado 1 para que o utlimo valor sejá multilpicado por 1
+    if valor <= 1 {
         return 1;
     }
     return valor * (fatorial(valor - 1));
