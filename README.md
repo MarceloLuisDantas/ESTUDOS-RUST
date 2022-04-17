@@ -17,6 +17,7 @@ O principal problema de C/C++ é o gerenciamento de memoria, isso esta claro, po
 <p align="center">
  <img height="600" src="./mt.jpeg" alt="Minha Figura">
 </p>
+
 Essa imagem é famosa, uma placa nos escritorios da Mozilla escrito "Must be this tall to write multi-threaded code" O regitro mais antigo que eu pude encontrar foi de 2013 [neste post](https://twitter.com/themitcho/status/308026012455821312). Essa placa é uma piada sobre ser quase humanamente impossivel você escrever um codigo mult-threaded realmente seguro. *(Caso n tenha notado, o super calvo no canto esta em de pé em uma mesa alta)* Que de fato, escrever codigo multi thread em C/C++ ultilizando ponteiros é uma tarefa quase desumana, a quantidade de problemas por um valor ser auterado quando não deveria, ou um valor ser deletado enquanto outra thread esta tentando acessá-lo tornava o desenvolvimento estremamente lento, e se perdia mais tempo arrumando problemas envolvendo memoria do que qualquer outra coisa. 
 E foi com as mãos cansadas de tanto resolver problemas de memoria que o funcionario da Mozilla, por volta de 2008~2009 Graydon Hoare descidiu resolver esse problema da forma mais radical possivel, criando uma nova linguagem.
 
