@@ -1,4 +1,5 @@
 # Linguagem Rust
+PS: _Esse texto é feito unicamente para eu pensar sobre, ignore total tudo que estiver escrito nele, ou não tbm, fique avontade para corrigir portugues ou algo assim._
 ## Resumo
 Todos sabemos o quanto Rust esta sendo falada e adotada como alternativa ao C e C++ por ser uma linguagem extremamente eficiente e quase tão rapida quanto (dependendo da situação ate mais), porem sem todas as dificuldades que escrever codigo em C e C++ possui, como gerenciamento de memoria e a dificuldade em manter o codigo estavel. 
 No inicio dos anos 90, **Bjarne Stroustrup**, um dos responsaveis pelo C++, disse a famosa frase [*"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off"*](https://www.stroustrup.com/quotes.html) No seu site pessoal, ele explica que essa frase se aplica a qualquer linguagem que protege o programador de pequenos problemas, poís ao ir o livrando de problemas simples, quando ele se deparar com problemas maiores e mais incomuns, que muitas vezes derivam dos problemas menores, assim tudo se torna mais dificil. 
