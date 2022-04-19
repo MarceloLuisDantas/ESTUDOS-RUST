@@ -3,7 +3,7 @@
 __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu penso sobre meus estudos e coisas envolvendo isso, então pfv n se importe com os erros de portugues._
 
 <!-- <details>
-  <summary>DD/MM/2022</summary>
+  <summary>DD/04/2022</summary>
 
   <hr>
   Fim do dia:
@@ -28,8 +28,18 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   de um modo de procastinar sem ser julgado pela sociedade.
   <hr>
   Fim do dia:
-  
   <hr>
   :headphones: Musica: Asriel: Abyss 
+<details>
+
+<details>
+  <summary>19/04/2022</summary>
+  Então, finalmente depois de usn 3 ou 4 dias aceitaram minha contribuição e um proejto e consegui destravar par acontinuar aqui. Então vamo votlar a tentar o Quick Sort ou desistir e ir para um merge sort.
+  Então meio que eu consegui fazer o Quick funcionar e entender como ele funciona. Foi bem chato conseguir visualizar ele funcionado na minha mente direitrinho msa eu consegui. Vou tentar fazer o merge sort provavelmente (se não tiverem implementado no projeto claro)
+  <hr>
+  Fim do dia:
+  
+  <hr>
+  :headphones: Musica: Rapsody of Fire - Dawn of Victory
 
 <details>
