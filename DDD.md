@@ -37,9 +37,17 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Então, finalmente depois de usn 3 ou 4 dias aceitaram minha contribuição e um proejto e consegui destravar par acontinuar aqui. Então vamo votlar a tentar o Quick Sort ou desistir e ir para um merge sort.
   Então meio que eu consegui fazer o Quick funcionar e entender como ele funciona. Foi bem chato conseguir visualizar ele funcionado na minha mente direitrinho msa eu consegui. Vou tentar fazer o merge sort provavelmente (se não tiverem implementado no projeto claro)
   <hr>
+  :headphones: Musica: Rapsody of Fire - Dawn of Victory
+<details>
+
+<details>
+  <summary>19/04/2022</summary>
+  Esqueci qeu vc existia e comecei a fazer umas coisa sem escrever, então vim me coisa sobre isso. Então eu pensei "caralho vou deixar pra amanha o merge sort" e de fato eu podia fazer agora, porem eu fiquei com preguiça pq parece ser muito chato de implementar. Então eu descidi fazer o "soma_dois_numeros.rs". Pq parecia facil, mas vou precisar aprender a usar HashMap, o que parece ser facil, mas é algo que eu nunca mechi com, então bora.
+  Então, eu pensei ter terminado o codigo, quando eu fui testar e ele tava sempre dando o mesmo resultado. E eu fiquei nisso ate eu jogar um input que iria estourar i32 e perceber que não deu erro pq eu tava usando o mesmo binario desde a primeira compilação, é claro que não ia mudar o output.
+  <hr>
   Fim do dia:
   
   <hr>
-  :headphones: Musica: Rapsody of Fire - Dawn of Victory
+  :headphones: Musica:
 
 <details>
