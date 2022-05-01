@@ -1,3 +1,5 @@
+mod lista_linkada;
+
 fn main() {
-    println!("Hello, world!");
+    lista_linkada::teste();    
 }

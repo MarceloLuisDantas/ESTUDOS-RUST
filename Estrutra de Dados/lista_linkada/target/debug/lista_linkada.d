@@ -1,0 +1,1 @@
+/home/marcelo/Documents/codigos/Rust/Estudos-Rust/Estrutra\ de\ Dados/lista_linkada/target/debug/lista_linkada: /home/marcelo/Documents/codigos/Rust/Estudos-Rust/Estrutra\ de\ Dados/lista_linkada/src/lista_linkada.rs /home/marcelo/Documents/codigos/Rust/Estudos-Rust/Estrutra\ de\ Dados/lista_linkada/src/main.rs
