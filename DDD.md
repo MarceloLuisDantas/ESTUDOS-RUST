@@ -59,8 +59,24 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Tecnica compilou, eu entendi um pouco das coisa, porem na minha cabeça o push ta colocando no começo da lista e não no final, preciso entender melho isso antes de seguir.
   Parei por agora na parte de impl o Drop. To confuso sobre o funcionamento do mem::replace e outras coisas. E eu tava certo, o push tava acontecendo no inicio e não no final. Isso é uma Stack não uma lista, depois eu penso em como inverter isso e fazer ele alucar o novo indice no final.
   <hr>
-  Fim do dia:
-  
-  <hr>
   :headphones: Musica: Orden Organ - Fields of Sorrow (essa me deixou F no chat)
+<details>
+
+<details>
+  <summary>6/05/2022</summary>
+  Eu não quero nem um comentario sobre minha demora.... ouviu? 
+  Pois é, faculdade começou essa semana e eu fiquei o dia todo nela por causa do evento e chegava cansado por n estar acostuamdo com acordar cedo. Ai hj eu descidi centar o cu na cadeira e entender o que é um Smart Pointer, que é um ponteiro muito mais dificil de lidar com porem que evita o grande problema causado por algo que nunca se pode resolver, o programador ser burro.  
+  <hr>
+  :headphones: Musica: Powerwolf - Kreuzfeuer (eu n tinha reparado no quão bela é essa musica)
+<details>
+
+<details>
+  <summary>7/05/2022</summary>
+  GOOD MORNING MORIOH
+  Mais um dia tentando entender ponteiros, na real é o mesmo dia, pois ontem eu so comecei ai fui dormir pq já era meia noite e eu tava com sono. Então hj eu vou ler mais o capitulo do livro sobre ponteiros para tentar entender alguma coisa, pq isso é mais complicado de entender do que usar, usar é ate facil, porem eu n quero ficar precisando compilar e ver o que o rustc tem a dizer sobre minhas cagada, então eu quero entender direito
+  <hr>
+  Fim do dia: 
+  Eu consegui fazer a copisa funciona com push e pop, porem eu acredito que não. Pq eu tenho quase certeza que eu os valores estão apenas sendo liberados para s... vou testar isso, momento. Exato, eu acredito que eu esteja apenas "liberando" os valores para serem sobrescritos, logo eu preciso ver como eu faço para realmente liberar o espaço na moemoria, lembro que tem uma trait que faz isso, vou dar uma olha e lembro tbm do mem::replace, porem por hora vai ficar assim. Porem vou dar uma comentada.
+  <hr>
+  :headphones: Musica: Powerwolf - Kreuzfeuer (eu n tinha reparado no quão bela é essa musica)
 <details>
