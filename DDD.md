@@ -30,7 +30,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Fim do dia:
   <hr>
   :headphones: Musica: Asriel: Abyss 
-<details>
+</details>
 
 <details>
   <summary>19/04/2022</summary>
@@ -38,7 +38,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Então meio que eu consegui fazer o Quick funcionar e entender como ele funciona. Foi bem chato conseguir visualizar ele funcionado na minha mente direitrinho msa eu consegui. Vou tentar fazer o merge sort provavelmente (se não tiverem implementado no projeto claro)
   <hr>
   :headphones: Musica: Rapsody of Fire - Dawn of Victory
-<details>
+</details>
 
 <details>
   <summary>19/04/2022</summary>
@@ -46,12 +46,12 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Então, eu pensei ter terminado o codigo, quando eu fui testar e ele tava sempre dando o mesmo resultado. E eu fiquei nisso ate eu jogar um input que iria estourar i32 e perceber que não deu erro pq eu tava usando o mesmo binario desde a primeira compilação, é claro que não ia mudar o output.
   <hr>
   :headphones: Musica: Border of Life - TouHou 7
-<details>
+</details>
 
 <details>
   <summary>26/04/2022</summary>
   Pois é fiquei muito tempo sem tocar aqui, motivos? Voltei a jogar SW, porem isso n vem ao caso. Hj eu to afim de fazer lista linkada, vai dar certo? Acho que sim, n é muito dificil. Porem vai ser muito util entender direito como elas funcionam, por mais que elas por si sejam meio inuteis.
-<details>
+</details>
 
 <details>
   <summary>1/05/2022</summary>
@@ -60,7 +60,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Parei por agora na parte de impl o Drop. To confuso sobre o funcionamento do mem::replace e outras coisas. E eu tava certo, o push tava acontecendo no inicio e não no final. Isso é uma Stack não uma lista, depois eu penso em como inverter isso e fazer ele alucar o novo indice no final.
   <hr>
   :headphones: Musica: Orden Organ - Fields of Sorrow (essa me deixou F no chat)
-<details>
+</details>
 
 <details>
   <summary>6/05/2022</summary>
@@ -68,7 +68,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Pois é, faculdade começou essa semana e eu fiquei o dia todo nela por causa do evento e chegava cansado por n estar acostuamdo com acordar cedo. Ai hj eu descidi centar o cu na cadeira e entender o que é um Smart Pointer, que é um ponteiro muito mais dificil de lidar com porem que evita o grande problema causado por algo que nunca se pode resolver, o programador ser burro.  
   <hr>
   :headphones: Musica: Powerwolf - Kreuzfeuer (eu n tinha reparado no quão bela é essa musica)
-<details>
+</details>
 
 <details>
   <summary>7/05/2022</summary>
@@ -78,8 +78,8 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Fim do dia: 
   Eu consegui fazer a copisa funciona com push e pop, porem eu acredito que não. Pq eu tenho quase certeza que eu os valores estão apenas sendo liberados para s... vou testar isso, momento. Exato, eu acredito que eu esteja apenas "liberando" os valores para serem sobrescritos, logo eu preciso ver como eu faço para realmente liberar o espaço na moemoria, lembro que tem uma trait que faz isso, vou dar uma olha e lembro tbm do mem::replace, porem por hora vai ficar assim. Porem vou dar uma comentada.
   <hr>
-  :headphones: Musica: Powerwolf - Kreuzfeuer (eu n tinha reparado no quão bela é essa musica)
-<details>
+  :headphones: Musica: Powerwolf - Incense and Iron
+</details>
 
 <details>
   <summary>8/05/2022</summary>
@@ -88,4 +88,4 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   
   <hr>
   :headphones: Musica: 
-<details
+</details>
