@@ -80,3 +80,12 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   <hr>
   :headphones: Musica: Powerwolf - Kreuzfeuer (eu n tinha reparado no quão bela é essa musica)
 <details>
+
+<details>
+  <summary>8/05/2022</summary>
+  3 dias seguindos, acho que é um Recorde pessoal. Bom dia, boa tarde, boa noite pra vc que ta lendo isso. Hoje eu descidi desligar um pouco de Smart Pointers, box, rc, pipipi popopo, e descidi dar uma olhada em algotimos, porem dessa vez eu quero brincar um pouco com Hash, fiquei curiosos sobre como eles funcionam. Então bora tentar alguma coisa.
+  <hr>
+  
+  <hr>
+  :headphones: Musica: 
+<details
