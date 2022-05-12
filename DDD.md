@@ -84,8 +84,13 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
 <details>
   <summary>8/05/2022</summary>
   3 dias seguindos, acho que é um Recorde pessoal. Bom dia, boa tarde, boa noite pra vc que ta lendo isso. Hoje eu descidi desligar um pouco de Smart Pointers, box, rc, pipipi popopo, e descidi dar uma olhada em algotimos, porem dessa vez eu quero brincar um pouco com Hash, fiquei curiosos sobre como eles funcionam. Então bora tentar alguma coisa.
+</details>
+
+<details>
+  <summary>12/05/2022</summary>
+  Eu tinha qeu abrir a minha boca sobre como eu tava conseguindo manter uma sequencia. O resultado do dia 8 foi em uma conversa no telegram sobre como implementar um hash n faz muito sentido, pois as operações são completamente random que não iriam melhorar em muita coisa a minha capacidade como programador. Então fiquei meio xernos e vou voltar a aquele interpretador, porem dessa vez vou so ignorar AST ou algo bem feito, foi apenas fazer funcionar e des-foda-se.
   <hr>
-  
+  Final do dia: Consegui fazer algumas coisas, seguindo a ideia do "antes feito do que inexistente" eu so fiz as coisas de forma mais simples possivel, sem AST, sem parser, sem porra nem uma, quem verifica a sintaxe é liretalmentre uma função, tudo é feito da forma mais simples possivel. Porem esta funcionando. Amanha eu tento fazer algo mais, porem por hora vai ficar como esta mesmo. To feliz de conseguir fazer algo.
   <hr>
-  :headphones: Musica: 
+  :headphones: Musica: Battle Beast - Master of Illusion
 </details>
