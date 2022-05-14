@@ -9,14 +9,17 @@ impl Memoria {
         Memoria { valores: HashMap::new() }
     }
 
+    /// Verifica se um valor esta registrado pelo nome
     pub fn contains(&self, nome: &str) -> bool {
         self.valores.contains_key(nome)
     }
 
+    /// Retorna o valor registrado na memoria pelo nome
     pub fn get_valor(&self, nome: &str) -> f32 {
         *self.valores.get(nome).unwrap()
     }
 
+    /// Mostra todos os valores guardados na memoria
     pub fn lista_valores(&self) -> String{
         for (key, value) in self.valores.iter() {
             println!("{} = {}", key, value);
@@ -24,6 +27,8 @@ impl Memoria {
         format!("{} valores na memoria", self.valores.len())
     }
 
+    /// Sintaxe - var [nome] [valor]
+    /// Declara um novo valor na memoria
     pub fn var(&mut self, nome: &str, valor: f32) -> f32 {
         if self.valores.contains_key(nome) {
             *self.valores.get_mut(nome).unwrap() = valor;
@@ -33,6 +38,8 @@ impl Memoria {
         return valor;
     }
 
+    /// Sintaxe - rmv [nome]
+    /// Remove um valor da memoria
     pub fn rmv(&mut self, nome: &str) -> Result<f32, String>{
         if self.valores.contains_key(nome) {
             match self.valores.remove(nome) {
