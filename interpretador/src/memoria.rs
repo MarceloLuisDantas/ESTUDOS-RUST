@@ -1,7 +1,7 @@
 use std::collections::HashMap;
 
 pub struct Memoria {
-    valores: HashMap<String, i32>,
+    valores: HashMap<String, f32>,
 }
 
 impl Memoria {
@@ -9,13 +9,22 @@ impl Memoria {
         Memoria { valores: HashMap::new() }
     }
 
-    pub fn lista_valores(&self) {
-        for (key, value) in self.valores.iter() {
-            println!("{} -> {}", key, value);
-        }
+    pub fn contains(&self, nome: &str) -> bool {
+        self.valores.contains_key(nome)
     }
 
-    pub fn var(&mut self, nome: &str, valor: i32) -> i32 {
+    pub fn get_valor(&self, nome: &str) -> f32 {
+        *self.valores.get(nome).unwrap()
+    }
+
+    pub fn lista_valores(&self) -> String{
+        for (key, value) in self.valores.iter() {
+            println!("{} = {}", key, value);
+        }
+        format!("{} valores na memoria", self.valores.len())
+    }
+
+    pub fn var(&mut self, nome: &str, valor: f32) -> f32 {
         if self.valores.contains_key(nome) {
             *self.valores.get_mut(nome).unwrap() = valor;
         } else  {
@@ -24,7 +33,7 @@ impl Memoria {
         return valor;
     }
 
-    pub fn rmv(&mut self, nome: &str) -> Result<i32, String>{
+    pub fn rmv(&mut self, nome: &str) -> Result<f32, String>{
         if self.valores.contains_key(nome) {
             match self.valores.remove(nome) {
                 Some(x) => Ok(x),
@@ -42,16 +51,16 @@ mod test_memoria {
     #[test]
     fn test() {
         let mut memoria = Memoria::new();
-        let _ = memoria.var("valor1", 32);
-        assert_eq!(memoria.valores["valor1"], 32);
+        let _ = memoria.var("valor1", 32.0);
+        assert_eq!(memoria.valores["valor1"], 32.0);
 
-        let _ = memoria.var("valor1", 23);
-        assert_eq!(memoria.valores["valor1"], 23);
+        let _ = memoria.var("valor1", 23.0);
+        assert_eq!(memoria.valores["valor1"], 23.0);
 
-        assert_eq!(memoria.rmv("valor1"), Ok(23));
+        assert_eq!(memoria.rmv("valor1"), Ok(23.0));
 
-        let _ = memoria.var("valor2", 10);
-        assert_eq!(memoria.valores["valor2"], 10);
+        let _ = memoria.var("valor2", 10.0);
+        assert_eq!(memoria.valores["valor2"], 10.0);
 
         match memoria.rmv("valor1") {
             Ok(_) => {},

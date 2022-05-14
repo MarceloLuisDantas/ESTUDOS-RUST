@@ -94,3 +94,12 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   <hr>
   :headphones: Musica: Battle Beast - Master of Illusion
 </details>
+
+<details>
+  <summary>12/05/2022</summary>
+  Mais(eu demorei umas 5 tentativas para escrever isso) um dia tentando fazer algo. Ontem eu já peguei mais o costume de usar Options e Results. Foi bem util, eu acredito, são coisas muito uties. E como ontem eu criei as funções para criar variaveis e remover variaveis, hj eu quero tentar criar uma função para criar constantes, e as aritimetricas, para isso eu acredito que vou precisar criar um enum ou outra aestrutura que vai conter o valor, e vai dizer se é constante ou variavel. Bora tentar.
+  <hr>
+  Final do dia: Hj ate que fiz bastante coisa, fiz a parte da aritmetica, foi bem mais complicado do que eu pensava pq tomei umas descições no meio que me fez precisar arrumar boa parte do codigo, contando com os testes, e escrevi novos testes. Eu ia mecher com a parte de tornar os valores imutaveis, e aproveitar para permitir a criação de int, float e string, porem descidi ao menos escrever isso antes que que faça merda pq eu me conheço muito bem.
+  <hr>
+  :headphones: Musica: Orden Organ - Vampire in the Ghost Town
+</details>

@@ -1,9 +1,11 @@
+mod sintaxe;
 mod io;
-use eval::eval;
-use io::{clear_screen, input, print};
 mod memoria;
-use memoria::Memoria;
 mod eval;
+
+use io::{clear_screen, input, print};
+use memoria::Memoria;
+use eval::{eval};
 
 fn main() {
     let mut memoria = Memoria::new();
@@ -12,13 +14,15 @@ fn main() {
         print("|> ");
         let linha = input();
         match eval(&linha, &mut memoria) {
-            Ok(v) => print(&format!("{}", v)),
-            Err(msg) => {
-                if msg == "cls".to_string() {
+            Ok(v) => {
+                if &v.valor() == "cls" {
                     clear_screen();
                 } else {
-                    print(&msg);
+                    print(&format!("{}", v.valor()))
                 }
+            },
+            Err(msg) => {
+                print(&msg);   
             }
         }
         print("\n");
