@@ -3,7 +3,7 @@
 __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu penso sobre meus estudos e coisas envolvendo isso, então pfv n se importe com os erros de portugues._
 
 <!-- <details>
-  <summary>DD/04/2022</summary>
+  <summary>DD/05/2022</summary>
 
   <hr>
   Fim do dia:
@@ -96,7 +96,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
 </details>
 
 <details>
-  <summary>12/05/2022</summary>
+  <summary>13/05/2022</summary>
   Mais(eu demorei umas 5 tentativas para escrever isso) um dia tentando fazer algo. Ontem eu já peguei mais o costume de usar Options e Results. Foi bem util, eu acredito, são coisas muito uties. E como ontem eu criei as funções para criar variaveis e remover variaveis, hj eu quero tentar criar uma função para criar constantes, e as aritimetricas, para isso eu acredito que vou precisar criar um enum ou outra aestrutura que vai conter o valor, e vai dizer se é constante ou variavel. Bora tentar.
   <hr>
   Final do dia: Hj ate que fiz bastante coisa, fiz a parte da aritmetica, foi bem mais complicado do que eu pensava pq tomei umas descições no meio que me fez precisar arrumar boa parte do codigo, contando com os testes, e escrevi novos testes. Eu ia mecher com a parte de tornar os valores imutaveis, e aproveitar para permitir a criação de int, float e string, porem descidi ao menos escrever isso antes que que faça merda pq eu me conheço muito bem.
@@ -104,3 +104,16 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   <hr>
   :headphones: Musica: Orden Organ - Vampire in the Ghost Town
 </details>
+
+<details>
+  <summary>14/05/2022</summary>
+  Coisas a fazer today. Implementar o que eu disse ontem de uma estrutura que vai dizer qual o tipo dos valores e se eles são mutaveis ou imutaveis. Bora. 
+  Oi, consegui criar a estrutura para valores que aceita Str, Float e Int, porem agora preciso refatorar o codigo para passar tudo que era sobre f32 apenas para aceitar essa nova estrutura, incluindo os testes. KK EU VOU TRANCAR O CURSO.
+  Ok ok, consegui fazer isso, porem agora vou precisar criar uma nova função mut para modificar variaveis. Porem agora vou subir tudo pro github e dar uma refatorada antes de voltar a futricar.
+  <hr>
+  Fim do dia:
+  
+  <hr>
+  :headphones: Musica:
+
+<details>

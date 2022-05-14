@@ -5,7 +5,7 @@ mod eval;
 
 use io::{clear_screen, input, print};
 use memoria::Memoria;
-use eval::{eval};
+use eval::{eval, Resultado};
 
 fn main() {
     let mut memoria = Memoria::new();
@@ -14,11 +14,11 @@ fn main() {
         print("|> ");
         let linha = input();
         match eval(&linha, &mut memoria) {
-            Ok(v) => {
-                if &v.valor() == "cls" {
-                    clear_screen();
-                } else {
-                    print(&format!("{}", v.valor()))
+            Ok(r) => {
+                match r {
+                    Resultado::Msg { r: msg } => { print(&format!("{}", msg)) }
+                    Resultado::Num { r: num } => { print(&format!("{}", num)) }
+                    Resultado::Valor { r: tipo } => { print(&format!("{}", tipo)) }
                 }
             },
             Err(msg) => {
