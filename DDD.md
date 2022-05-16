@@ -110,6 +110,12 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Coisas a fazer today. Implementar o que eu disse ontem de uma estrutura que vai dizer qual o tipo dos valores e se eles são mutaveis ou imutaveis. Bora. 
   Oi, consegui criar a estrutura para valores que aceita Str, Float e Int, porem agora preciso refatorar o codigo para passar tudo que era sobre f32 apenas para aceitar essa nova estrutura, incluindo os testes. KK EU VOU TRANCAR O CURSO.
   Ok ok, consegui fazer isso, porem agora vou precisar criar uma nova função mut para modificar variaveis. Porem agora vou subir tudo pro github e dar uma refatorada antes de voltar a futricar.
+<details>
+
+<details>
+  <summary>16/05/2022</summary>
+  Hj eu descidi implementar a o "set" para alterar os valores mutaveis. E para isso eu tive que implementar algumas outras coisas como type_of para ajudar nos testes e arrumar outras coisas.
+  Agora eu to querendo refazer todos os codigos de testes pra deixar mais arrumado. E quero ver se eu consigo implementar o help para cada função e para um todo. Vou fazer isso hj? Não sei, mas pretendo.
   <hr>
   Fim do dia:
   

@@ -16,13 +16,19 @@ fn main() {
         match eval(&linha, &mut memoria) {
             Ok(r) => {
                 match r {
-                    Resultado::Msg { r: msg } => { print(&format!("{}", msg)) }
+                    Resultado::Msg { r: msg } => { 
+                        if msg == "cls".to_string() {
+                            clear_screen()
+                        } else {
+                            print(&format!("{}", msg)) 
+                        }
+                    }
                     Resultado::Num { r: num } => { print(&format!("{}", num)) }
                     Resultado::Valor { r: tipo } => { print(&format!("{}", tipo)) }
                 }
             },
             Err(msg) => {
-                print(&msg);   
+                print(&msg)
             }
         }
         print("\n");

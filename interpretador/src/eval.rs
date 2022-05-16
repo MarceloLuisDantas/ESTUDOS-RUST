@@ -2,7 +2,7 @@
 use crate::memoria::{Memoria, Tipo, Valor};
 use crate::sintaxe::*;
 
-const FUNCOES: [&'static str; 5] = ["var", "const", "rmv", "cls", "show"];
+const FUNCOES: [&'static str; 7] = ["var", "const", "rmv", "cls", "show", "set", "type_of"];
 const ARITMETICA: [&'static str; 4] = ["sum", "sub", "mult", "div"];
 
 #[derive(PartialEq, Debug)]
@@ -45,6 +45,34 @@ pub fn eval(linha: &str, memoria: &mut Memoria) -> Result<Resultado, String>{
                         }
                     },
                     Err(msg) => Err(msg),
+                }
+            }
+            "set" => {
+                match sintaxe_set(&tokens) {
+                    Ok(_) => {
+                        if memoria.contains(tokens[2]) {
+                            match memoria.set(tokens[2], tokens[1]) {
+                                Ok(v) => Ok(Resultado::Valor { r: v.tipo }),
+                                Err(err) => Err(err),
+                            }
+                        } else {
+                            Err(format!("Valor {} não encontrado na memoria", tokens[2]))
+                        }
+                    },
+                    Err(err) => Err(err),
+                }
+            }
+            "type_of" => {
+                match sintaxe_type_of(&tokens) {
+                    Ok(_) => {
+                        if memoria.contains(tokens[1]) {
+                            let tipo = memoria.get_valor(tokens[1]).get_tipo();
+                            Ok(Resultado::Msg { r: format!("{} = {}", tokens[1], tipo) })
+                        } else {
+                            Err(format!("Valor {} não encontrado na memoria", tokens[2]))
+                        }
+                    },
+                    Err(err) => Err(err),
                 }
             }
             "cls" => { Ok(Resultado::Msg{r: "cls".to_string()}) }

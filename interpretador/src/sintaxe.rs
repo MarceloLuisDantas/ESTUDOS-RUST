@@ -1,8 +1,29 @@
 pub fn sintaxe_var_const(parametros: &[&str]) -> Result<bool, String> {
     if parametros.len() != 3 {
-        Err("A função 'Var'/'Const' recebem exatamente 2 parmetros \n 
+        Err("A função 'Var'/'Const' recebem exatamente 2 parametros \n 
              -- var [nome] [valor] \n
              -- const [nome] [valor] \n".trim().to_string())
+    } else {
+        match parametros[1].parse::<f64>() {
+            Ok(_) => Err(format!("{} não é um nome valido", parametros[1])),
+            Err(_) => Ok(true),
+        }
+    }
+}
+
+pub fn sintaxe_set(parametros: &[&str]) -> Result <bool, String> {
+    if parametros.len() != 3 {
+        Err("A função 'Set' recebem exatamente 2 parametros \n 
+             -- set [valor] [nome] \n".trim().to_string())
+    } else {
+        Ok(true)
+    }
+}
+
+pub fn sintaxe_type_of(parametros: &[&str]) -> Result <bool, String> {
+    if parametros.len() != 2 {
+        Err("A função 'type_of' recebem exatamente 1 parametro \n 
+             -- type_of [nome] \n".trim().to_string())
     } else {
         Ok(true)
     }

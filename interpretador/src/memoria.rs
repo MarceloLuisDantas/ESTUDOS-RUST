@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use std::fmt;
+use std::fmt::{self};
 
 #[derive(PartialEq, Debug, Clone)]
 pub enum Tipo {
@@ -26,7 +26,7 @@ pub struct Valor {
 
 impl fmt::Display for Valor {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        let mutavel = if self.mutavel { "const" } else { "var" };
+        let mutavel = if self.mutavel { "var" } else { "const" };
         write!(f, "{} {}", mutavel, self.tipo)
     }
 }
@@ -54,6 +54,13 @@ impl Valor {
                 mutavel: mutavel,
                 tipo: Tipo::Int { valor: string.parse::<i64>().unwrap() }
             }
+        }
+    }
+    pub fn get_tipo(&self) -> String {
+        match self.tipo {
+            Tipo::Int { valor: _ } => "Int".to_string(),
+            Tipo::Float { valor: _ } => "Float".to_string(),
+            Tipo::Str { valor: _ } => "Str".to_string(), 
         }
     }
 }
@@ -94,6 +101,23 @@ impl Memoria {
             self.valores.insert(nome.to_string(), valor.clone());
         }
         return valor.tipo;
+    }
+
+    /// Sintaxe - set [valor] [nome]
+    /// Altera um valor já existente na memoria
+    pub fn set(&mut self, nome: &str, valor: &str) -> Result<Valor, String> {
+        let valor_antigo = self.get_valor(nome);
+        if !valor_antigo.mutavel {
+            Err(format!("{} é uma constante e não pode ser alterada", nome))
+        } else {
+            let novo_valor = Valor::new(valor.to_string(), true);
+            if novo_valor.get_tipo() == valor_antigo.get_tipo() {
+                let _ = self.var(nome, novo_valor.clone());
+                Ok(novo_valor)
+            } else {
+                Err("Os valores possuem tipos diferentes".to_string())
+            }
+        }
     }
 
     /// Sintaxe - rmv [nome]
