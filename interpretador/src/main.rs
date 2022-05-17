@@ -2,6 +2,7 @@ mod sintaxe;
 mod io;
 mod memoria;
 mod eval;
+mod erros;
 
 use io::{clear_screen, input, print};
 use memoria::Memoria;

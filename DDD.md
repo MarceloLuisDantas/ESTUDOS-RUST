@@ -117,9 +117,7 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   Hj eu descidi implementar a o "set" para alterar os valores mutaveis. E para isso eu tive que implementar algumas outras coisas como type_of para ajudar nos testes e arrumar outras coisas.
   Agora eu to querendo refazer todos os codigos de testes pra deixar mais arrumado. E quero ver se eu consigo implementar o help para cada função e para um todo. Vou fazer isso hj? Não sei, mas pretendo.
   <hr>
-  Fim do dia:
-  
+  Fim do dia: Ok, para facilitar umas coisas e deixar mais organizado eu descidi criar um modulo apenas para os erros, assim fica mais facil de mudar algum erro e na hora de testar tbm. Isso vai me ajudar bastante na hora de deixar tudo mais minimamente agradavel aos olhos. Amanha eu tento re-escrever os testes de uma forma mais organizada.
   <hr>
-  :headphones: Musica:
-
+  :headphones: Musica: 紺色のシンフォニック・スイート - 無邪気な狂気 笑顔で暴力
 <details>
