@@ -24,7 +24,7 @@ fn main() {
                             print(&format!("{}", msg)) 
                         }
                     }
-                    Resultado::Num { r: num } => { print(&format!("{}", num)) }
+                    Resultado::Num  { r: num } => { print(&format!("{}", num)) }
                     Resultado::Valor { r: tipo } => { print(&format!("{}", tipo)) }
                 }
             },
