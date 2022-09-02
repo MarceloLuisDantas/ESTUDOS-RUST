@@ -1,3 +1,4 @@
+mod testes;
 mod sintaxe;
 mod io;
 mod memoria;

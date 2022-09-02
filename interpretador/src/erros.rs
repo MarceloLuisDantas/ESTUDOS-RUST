@@ -28,7 +28,6 @@ pub fn valor_desconhecido(comando: &str) -> String { format!(
 ", comando
 )}
 
-
 pub fn str_vazia() -> String { 
 "    Strings vazias não são valores validos
 ".to_string() }
@@ -56,7 +55,6 @@ pub fn sintaxe_var_const_len() -> String {
         -- var [nome] [valor]
         -- const [nome] [valor]
 ".to_string()}
-
 
 pub fn sintaxe_set_len() -> String {
 "    A função 'Set' recebem exatamente 2 parametros

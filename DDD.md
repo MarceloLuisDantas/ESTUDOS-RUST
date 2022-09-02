@@ -121,3 +121,19 @@ __PS:__ _Tenho dislexia, e este diario é apenas para eu ter onde dizer o que eu
   <hr>
   :headphones: Musica: 紺色のシンフォニック・スイート - 無邪気な狂気 笑顔で暴力
 <details>
+
+<details>
+  <summary>18/05/2022</summary>
+  Hj eu descidi deixar um pouco de lado o interpretador e fazer alguma outra coisa. Então depois de muito tempo pensando(3 segundos) eu pensei como seria legal criar um servidor FTP(Acho que HTTP vai ser mais facil) e mandar para fernanda o link via SHH ou algo assim para ela abrir no terminal um HTML e mandar um msg e aparecer no meu terminal. Então bora.
+<details>
+
+<details>
+  <summary>20/05/2022</summary>
+  Fiquei com vontade de mudar Rust Of Life do terminal para uma interface grafica, sem mais perguntas.
+  <hr>
+  Fim do dia:
+  
+  <hr>
+  :headphones: Musica:
+
+<details>
